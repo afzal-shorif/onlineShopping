@@ -1,0 +1,156 @@
+.error{
+	color: #f00;
+}
+
+.success{
+	color: #269726;
+}
+
+#logo{
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	box-shadow: 1px 1px 3px #fff;
+}
+
+#cart_xs{
+	display: none;
+	text-align: right;
+}
+#cart_sm{
+	display: block;
+	text-align: right;
+}
+
+#search_field_container{
+	background-color: #9ea1a2;
+	padding: 4px;
+}
+#search_field{
+	width: 100%;
+	border: none;
+	padding: 3px 12px;
+	font-size: 15px;
+}
+#search_btn_container{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#search_btn{
+	border: none;
+	font-size: 20px;
+	background-color: #9ea1a2;
+	margin: 0;
+	color: #a6ce39;
+	width: 50px;
+	height: 30px;
+}
+
+.icon{
+	color: #ffffff;
+	font-size: 16px;
+}
+.badge {
+	border: 2px solid #fff;
+	border-radius: 10px;
+	font-size: 10px;
+	margin-top: -31px;
+	margin-left: -15px;
+	display: inline-block;
+	min-width: 10px;
+	padding: 3px 5px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	background-color: #a6ce39;
+}
+
+.nav li a{
+	color: #fff;
+	font-weight: 600;
+	background-color: transparent;
+	padding: 10px 8px;
+}
+.nav li a:hover{
+	text-decoration: none;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.admin_nav li a{
+	padding-left: 15px;
+}
+
+.currentPage{
+	background: rgba(255, 255, 255, 0.2)!important;
+}
+
+.c_btn{
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 5px 10px;
+	width: 100%;
+}
+
+.c_btn:hover{
+	background-color: #ddd;
+}
+
+._btn{
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 5px 10px;
+}
+._btn:hover{
+	background-color: #ddd;
+}
+
+.footer_ul{
+	list-style: none;
+	padding: 0px;
+	display: inline-block;
+	text-align: left;
+}
+.footer_ul a{
+	color: white;
+}
+
+.social_media{
+	display: inline-block;
+	text-align: center;
+}
+
+.social_media span{
+	height: 34px;
+	width: 34px;
+	color: #ffffff;
+	line-height: 34px;
+	font-size: 14px;
+	opacity: 0.8;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+
+@media only screen and (max-width: 576px){
+	#cart_xs{
+		display: block;
+		text-align: right;
+	}
+	#cart_sm{
+		display: none;
+		text-align: right;
+	}
+	#search_bar{
+		padding: 0px;
+		margin-top: 10px;
+	}
+	#info_pic{
+		display: none;
+	}
+}
+
